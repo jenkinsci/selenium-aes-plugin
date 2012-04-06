@@ -31,4 +31,20 @@
       <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/selenium-autoexec-client-1.1.jar</systemPath>
     </dependency>
   </dependencies>
-</project>
+
+    <repositories>
+        <repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+</project>  
+  
+
